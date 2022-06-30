@@ -1,7 +1,7 @@
 #!/bin/bash
 git add .
-
-git commit -m "maj"
-
+echo "Entrer la raison du commit" 
+read raison
+git commit -m "$raison"
 git push
 
